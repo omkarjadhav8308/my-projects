@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Travel Explorer</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#booking">Book Now</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Discover Your Next Adventure</h2>
+            <p>Explore the world with our curated tours and travel packages.</p>
+            <a href="#destinations" class="btn">Explore Destinations</a>
+        </div>
+    </section>
+
+    <section id="destinations">
+        <div class="container">
+            <h2>Popular Destinations</h2>
+            <div class="destinations-grid">
+                <div class="destination">
+                    <img src="destination1.jpg" alt="Destination 1">
+                    <h3>Latur,Maharashtra</h3>
+                    <p>Experience the tropical paradise.</p>
+                </div>
+                <div class="destination">
+                    <img src="destination2.jpg" alt="Destination 2">
+                    <h3>Pune,Maharashtra</h3>
+                    <p>The city of love and lights.</p>
+                </div>
+                <div class="destination">
+                    <img src="destination3.jpg" alt="Destination 3">
+                    <h3>Hyderabad,Telangana</h3>
+                    <p>Immerse yourself in tradition and culture.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking">
+        <div class="container">
+            <h2>Book Your Trip</h2>
+            <form action="#" method="post">
+                <label for="destination">Choose Destination:</label>
+                <select id="destination" name="destination">
+				
+                    <option value="latur">Latur,Maharashtra</option>
+                    <option value="pune">Pune,Maharashtra</option>
+                    <option value="hyderabad">Hyderabad,Telangana</option>
+                    <option value="mumbai">Mumbai,Maharashtra</option>
+                    <option value="a.nagar">A.nagar,Maharashtra</option>
+				</select>
+                <label for="date">Select Date:</label>
+                <input type="date" id="date" name="date">
+
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" max="40">
+
+                <button type="submit" class="btn">Book Now</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feel free to reach out to us!</p>
+            <p>Email: omkarj@gmail.com</p>
+            <p>Phone: +91 83087 67202</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Travel Explorer. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
